@@ -1,15 +1,20 @@
 <pre>
-@article{lesbre_2025,
-  TITLE = {{Relational Abstractions Based on Labeled Union-Find (with appendices)}},
-  AUTHOR = {Lesbre, Dorian and Lemerre, Matthieu and Ait-El-Hara, Hichem Rami and Bobot, Fran{\c c}ois},
-  URL = {https://hal.science/hal-05029216},
-  NOTE = {46th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2025), Seoul, South Korea, 16-20/06/2025},
-  JOURNAL = {{Proceedings of the ACM on Programming Languages}},
-  PUBLISHER = {{ACM}},
-  VOLUME = {9},
-  NUMBER = {PLDI},
-  YEAR = {2025},
-  MONTH = Jun,
-  KEYWORDS = {Relational abstract domains ; Labeled union-find ; Abstract Intepretation}
+@article{10.1145/3729298,
+  author = {Lesbre, Dorian and Lemerre, Matthieu and Ait-El-Hara, Hichem Rami and Bobot, Fran\c{c}ois},
+  title = {Relational Abstractions Based on Labeled Union-Find},
+  year = {2025},
+  issue_date = {June 2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {9},
+  number = {PLDI},
+  url = {https://doi.org/10.1145/3729298},
+  doi = {10.1145/3729298},
+  abstract = {We introduce a new family of abstractions based on a data structure that we call labeled union-find, an extension of the classic efficient union-find data structure where edges carry labels. These labels have a composition operation that obey the group axioms. Like union-find, the labeled version can efficiently compute the transitive closure of a relation, but it is not limited to equivalence relations; it can represent any injective transformation between equivalence classes, which includes two-variables per equality (TVPE) constraints of the form y = a\texttimes{} x + b. Using abstract interpretation theory, we study the properties deriving from the use of abstract relations as labels, and the combination of labeled union-find with other representations of constraints, allowing both improvements in precision and simplification of existing constraints. Due to its efficiency, the labeled union-find abstractions could find many uses; we use it in two use cases, program analysis based on abstract interpretation and constraint solving for SMT, with encouraging preliminary results.},
+  journal = {Proc. ACM Program. Lang.},
+  month = jun,
+  articleno = {195},
+  numpages = {26},
+  keywords = {Abstract interpretation, Labeled union-find, Relational abstract domain}
 }
 </pre>
