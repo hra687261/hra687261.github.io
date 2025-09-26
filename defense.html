@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <h3 style="text-align:center;"> PhD Defense </h3>
+        <h2 style="text-align:center;"> Theory of Sequences </br> Tailored for Program Verification </h2>
+        <h4 style="text-align:center;">
+          By
+          <span style="font-size: 2.5rem; font-weight: normal;">Hichem Rami AIT EL HARA</span>
+        </h4>
+        </br>
+        </br>
+        I will defend my PhD thesis on October 15th, 2025 at 14h00, in
+        <a href="https://maps.app.goo.gl/EZ2QxDe2LefDKhLv8">Amphi 33 - CEA Nano-INNOV Building 862 - 1st floor 2, boulevard Thomas Gobert 91120 Palaiseau France.</a> </br>
+        The entrance (for externals) to the site is from <a href="https://maps.app.goo.gl/a6ppU2dWvpYmjRgp8">Sent. de Corbeville</a> (<a href="https://www.openstreetmap.org/way/140538729">on OSM</a>), for more info on how to get there <a href="assets/other/Venir_a_Nano_INNOV_2024.pdf">click here</a>. </br> </br>
+
+        The defense will be retransmitted online on <a href="https://app.livestorm.co/cea_list/soutenance-hichem-ait-el-hara?s=f4001161-2f4f-45ff-a73f-f6beed0d7e69">Livestorm</a>.</br>
+
+        <h4>Abstract</h4>
+
+        The choices of semantic models for a programming language have a significant effect on the efficiency of the verification of programs in that language. Indeed, many verification techniques generate mathematical formulas using those models. The mathematical theories used in these formulas and their shape have a direct impact on their solvability by the used solver. The modelization of memory and data structures often uses the SMT (Satisfiablity Modulo Theories) theory of arrays which is well established and used in SMT solvers. In this theory, arrays associate values with indices, both of which can be of any type. The theory also allows for operations that enable the writing and reading of the stored data. However, in the concrete programs from which the formulas that need to be solved are produced, memory and data structures are usually limited. For example, arrays in programming languages are usually indexed from 0 to a constant n. Although it is possible to encode finite arrays in the SMT theory of arrays, that would not always be a satisfying solution, one reason being that extensional equality on a finite array from 0 to n cannot be directly modelized using the extensional equality on infinite arrays which considers all integers. An SMT theory of finite sequences, in which the sequences are collections of values indexed over a set of contiguous integers, would simplify the solving of formulas that modelize such data structures. Moreover, finite sequences with concatenation and extraction operators can also be used to express particular specification languages such as separation logic. One difficulty is to choose the set of operations on the sequences to support, since the decidability of the theory depends on them. On the other hand, complete decidability is not always required since the formulas obtained from program verification can have specific shapes or uses of the operations.
+        </br></br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1168.867709196782!2d2.1932823933723298!3d48.71264116119375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e678bc31c94b7f%3A0x82cc4460edf8740!2sB%C3%A2timent%20862%2C%20D128%2C%2091120%20Palaiseau!5e1!3m2!1sen!2sfr!4v1758880271048!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+      </div>
+      <div class="col-xs-2"> </div>
+    </div>
+  </div>
+
+  <!-- <h1>Welcome to my new page!</h1>
+  <p>This is a second page on my GitHub Pages site.</p>
+  <a href="index.html">Back to Home</a> -->
+</body>
+</html>
