@@ -1,2 +1,0 @@
-import VersoBlog
-import FrontPage

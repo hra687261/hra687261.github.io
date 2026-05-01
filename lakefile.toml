@@ -1,5 +1,5 @@
 name = "my-site"
-defaultTargets = ["FrontPage", "generate-site"]
+defaultTargets = ["Home", "generate-site"]
 
 [[require]]
 name = "verso"
@@ -7,7 +7,24 @@ git = "https://github.com/leanprover/verso.git"
 rev = "v4.29.0"
 
 [[lean_lib]]
-name = "FrontPage"
+name = "Theme"
+srcDir = "pages"
+
+[[lean_lib]]
+name = "Common"
+srcDir = "pages"
+
+[[lean_lib]]
+name = "Home"
+srcDir = "pages"
+
+[[lean_lib]]
+name = "Research"
+srcDir = "pages"
+
+[[lean_lib]]
+name = "Defense"
+srcDir = "pages"
 
 [[lean_exe]]
 name = "generate-site"
