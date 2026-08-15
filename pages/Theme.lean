@@ -30,12 +30,21 @@ def theme : Theme := { Theme.default with
                 <a class="name" href="/">"Hichem Rami AIT EL HARA"</a>
                 <nav class="nav-links">
                   <a class="nav" href="/">"Home"</a>
-                  <a class="nav" href="/Research/">"Research"</a>
+                  <a class="nav" href="/CV/">"CV"</a>
+                  <a class="nav" href="/Publications/">"Publications"</a>
+                  <a class="nav" href="/Service/">"Service"</a>
                 </nav>
               </div>
               {{← param "content"}}
               {{postList}}
-              <div class="footer"></div>
+              <div class="footer">
+                <div class="footer-links">
+                  <a href="https://orcid.org/0000-0001-7909-0413">"ORCID"</a>
+                  <a href="https://www.linkedin.com/in/hra687261/">"LinkedIn"</a>
+                  <a href="https://scholar.google.com/citations?user=_u9Ed_UAAAAJ">"Google Scholar"</a>
+                  <a href="https://github.com/hra687261/">"GitHub"</a>
+                </div>
+              </div>
             </div>
           </div>
         </body>
@@ -44,9 +53,10 @@ def theme : Theme := { Theme.default with
   pageTemplate := do
     let path ← currentPath
     let title ← param (α := String) "title"
-    let showTitle := path != #[] && path != #["Research"]
+    let showTitle := path != #[] && path != #["Publications"] && path != #["Service"]
+    let pageClass := "page-" ++ path.getD 0 "Home"
     return {{
-      <article>
+      <article class = {{pageClass}}>
         {{ if showTitle then {{ <h1>{{title}}</h1> }} else Html.empty }}
         {{← param "content"}}
       </article>

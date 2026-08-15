@@ -19,7 +19,15 @@ name = "Home"
 srcDir = "pages"
 
 [[lean_lib]]
-name = "Research"
+name = "CV"
+srcDir = "pages"
+
+[[lean_lib]]
+name = "Publications"
+srcDir = "pages"
+
+[[lean_lib]]
+name = "Service"
 srcDir = "pages"
 
 [[lean_lib]]
