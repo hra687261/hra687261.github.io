@@ -12,3 +12,15 @@ Build with:
 lake build
 lake exe generate-site
 ```
+
+TODO:
+- Move reports to the publications page
+- BIO
+- Projects I'm currently working on
+- Talks I've given
+- Deep links
+- (bring back) Bibtex for each publication
+- Color/Highlight current page in header
+- Favicon for browser pages
+- Open Graph / Social meta tags (for when the link is shared)
+- Either Pdf CV or a way to generate it
