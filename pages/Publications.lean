@@ -21,11 +21,20 @@ elab "include_dir_str_pairs " dir:str ext:str : term => do
   return Lean.toExpr pairs.toList
 
 /-- A "BibTeX" badge that expands in place to a selectable/copyable
-BibTeX block when clicked. -/
+BibTeX block (with a copy-to-clipboard button) when clicked. -/
 def bibtexBox (bibtex : String) : Verso.Output.Html :=
   .tag "details" #[("class", "bibtex")] <| .seq #[
     .tag "summary" #[] (.text true "BibTeX"),
-    .tag "pre" #[] (.text true bibtex)
+    .tag "div" #[("class", "bibtex-body")] <| .seq #[
+      .tag "button" #[
+        ("type", "button"),
+        ("class", "bibtex-copy"),
+        ("title", "Copy BibTeX"),
+        ("aria-label", "Copy BibTeX"),
+        ("onclick", r#"navigator.clipboard.writeText(this.nextElementSibling.textContent).then(() => {this.classList.add('copied'); setTimeout(() => this.classList.remove('copied'), 1500)})"#)
+      ] <| .seq #[copyIcon, checkIcon],
+      .tag "pre" #[] (.text true bibtex)
+    ]
   ]
 
 /-- HashMap assocaiting each bibtex entry name NAME with its content that is read

@@ -126,6 +126,7 @@ li p { margin: 0.2em 0; }
 .page-Publications details.bibtex summary::-webkit-details-marker { display: none; }
 .page-Publications details.bibtex summary:hover { color: var(--link); }
 .page-Publications details.bibtex[open] summary { margin-bottom: 0.5em; }
+.page-Publications .bibtex-body { position: relative; }
 .page-Publications details.bibtex pre {
   white-space: pre-wrap;
   word-break: break-word;
@@ -138,6 +139,26 @@ li p { margin: 0.2em 0; }
   overflow-x: auto;
   max-width: 100%;
 }
+.page-Publications .bibtex-copy {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 0.4em;
+  border-radius: 4px;
+  line-height: 0;
+}
+.page-Publications .bibtex-copy:hover { color: var(--link); border-color: var(--link); }
+.page-Publications .bibtex-copy .icon-check { display: none; }
+.page-Publications .bibtex-copy.copied .icon-copy { display: none; }
+.page-Publications .bibtex-copy.copied .icon-check { display: block; }
+.page-Publications .bibtex-copy.copied { color: #2e9c4b; border-color: #2e9c4b; }
 
 
 /* Footer */
