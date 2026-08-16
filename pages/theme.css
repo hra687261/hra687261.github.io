@@ -81,6 +81,12 @@ div#outer { max-width: 850px; margin: 0 auto; padding: 0 1.5em; }
 }
 .title a.nav:hover { color: var(--link); }
 .title a.nav:visited { color: var(--muted); }
+.title a.nav.current {
+  color: var(--heading);
+  border-bottom: 2px solid var(--link);
+  padding-bottom: 0.15em;
+}
+.title a.nav.current:visited { color: var(--heading); }
 
 /* Lists */
 ul, ol { margin-left: 1.2em; }

@@ -8,6 +8,9 @@ namespace Site
 open Output Html Template Theme in
 def theme : Theme := { Theme.default with
   primaryTemplate := do
+    let path ← currentPath
+    let current := path.getD 0 "Home"
+    let navClass (name : String) : String := if name == current then "nav current" else "nav"
     let postList :=
       match (← param? "posts") with
       | none => Html.empty
@@ -29,10 +32,10 @@ def theme : Theme := { Theme.default with
               <div class="title">
                 <a class="name" href="/">"Hichem Rami AIT EL HARA"</a>
                 <nav class="nav-links">
-                  <a class="nav" href="/">"Home"</a>
-                  <a class="nav" href="/CV/">"CV"</a>
-                  <a class="nav" href="/Publications/">"Publications"</a>
-                  <a class="nav" href="/Service/">"Service"</a>
+                  <a class = {{navClass "Home"}} href="/">"Home"</a>
+                  <a class = {{navClass "CV"}} href="/CV/">"CV"</a>
+                  <a class = {{navClass "Publications"}} href="/Publications/">"Publications"</a>
+                  <a class = {{navClass "Service"}} href="/Service/">"Service"</a>
                 </nav>
               </div>
               {{← param "content"}}
