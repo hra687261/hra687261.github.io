@@ -110,6 +110,35 @@ li p { margin: 0.2em 0; }
 }
 .page-Publications li p a:hover { color: var(--link); }
 
+/* BibTeX Box toggle. */
+.page-Publications details.bibtex { margin-top: 0.3em; }
+.page-Publications details.bibtex summary {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--fg);
+  background: var(--badge-bg);
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  list-style: none;
+}
+.page-Publications details.bibtex summary::-webkit-details-marker { display: none; }
+.page-Publications details.bibtex summary:hover { color: var(--link); }
+.page-Publications details.bibtex[open] summary { margin-bottom: 0.5em; }
+.page-Publications details.bibtex pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: var(--badge-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.8em 1em;
+  font-size: 0.82em;
+  font-family: 'SF Mono', Menlo, Consolas, monospace;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 
 /* Footer */
 .footer {
