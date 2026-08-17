@@ -105,8 +105,8 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf BibEntry
 
 - {anchor "2026_TACAS"}[]*Smt.ml: A Multi-Backend Frontend for SMT Solvers in OCaml* {blob br}[]
   João Madeira Pereira, Filipe Marques, Pedro Adão, *Hichem Rami Ait-El-Hara*, Léo Andrès, Arthur Carcano, Pierre Chambart, Petar Maksimović, Nuno Santos, José Fragoso Santos. {blob br}[]
-  To appear in TACAS 2026: 32nd International Conference on Tools and Algorithms for the Construction and Analysis of Systems. {blob br}[]
-  [Paper](./assets/papers/2026_TACAS.pdf) {bib "2026_TACAS"}[] [HAL](https://inria.hal.science/hal-04761767v2)
+  TACAS @ ETAPS 2026: Tools and Algorithms for the Construction and Analysis of Systems: 32nd International Conference, Held as Part of the International Joint Conferences on Theory and Practice of Software, ETAPS 2026. {blob br}[]
+  [Paper](./assets/papers/2026_TACAS.pdf) {bib "2026_TACAS"}[] [Publisher Version](https://link.springer.com/chapter/10.1007/978-3-032-22752-2_2) [HAL](https://inria.hal.science/hal-04761767v2)
 {bibBox "2026_TACAS"}[]
 
 {blob hr}[]
@@ -142,7 +142,7 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf BibEntry
 - {anchor "2025_PLDI"}[]*Relational Abstractions Based on Labeled Union-Find* {blob br}[]
   Dorian Lesbre, Matthieu Lemerre, *Hichem Rami Ait-El-Hara*, and François Bobot. {blob br}[]
   PLDI 2025: 46th ACM SIGPLAN Conference on Programming Language Design and Implementation. {blob br}[]
-  [Paper](./assets/papers/2025_PLDI.pdf) {bib "2025_PLDI"}[] [HAL](https://hal.science/hal-05029216v1) [Publisher Version](https://dl.acm.org/doi/10.1145/3729298)
+  [Paper](./assets/papers/2025_PLDI.pdf) {bib "2025_PLDI"}[] [Publisher Version](https://dl.acm.org/doi/10.1145/3729298) [HAL](https://hal.science/hal-05029216v1)
 {bibBox "2025_PLDI"}[]
 
 {blob hr}[]
@@ -154,7 +154,7 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf BibEntry
 - {anchor "2024_SMT"}[]*An SMT Theory for n-Indexed Sequences* {blob br}[]
   *Hichem Rami Ait-El-Hara*, François Bobot, and Guillaume Bury. {blob br}[]
   SMT 2024: 22nd International Workshop on Satisfiability Modulo Theories. {blob br}[]
-  [Paper](./assets/papers/2024_SMT.pdf) {bib "2024_SMT"}[] [HAL](https://hal.science/hal-04706489) [Publisher Version](https://ceur-ws.org/Vol-3725/#short13)
+  [Paper](./assets/papers/2024_SMT.pdf) {bib "2024_SMT"}[] [Publisher Version](https://ceur-ws.org/Vol-3725/#short13) [HAL](https://hal.science/hal-04706489)
 {bibBox "2024_SMT"}[]
 
 {blob hr}[]
@@ -162,7 +162,7 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf BibEntry
 - {anchor "2024_LPAR"}[]*On SMT Theory Design: The Case of Sequences* {blob br}[]
   *Hichem Rami Ait-El-Hara*, François Bobot, and Guillaume Bury. {blob br}[]
   LPAR 2024: 25th Conference On Logic For Programming, Artificial Intelligence and Reasoning. {blob br}[]
-  [Paper](./assets/papers/2024_LPAR.pdf) {bib "2024_LPAR"}[] [HAL](https://hal.science/hal-04706459) [Publisher Version](https://easychair.org/publications/paper/qdvJ)
+  [Paper](./assets/papers/2024_LPAR.pdf) {bib "2024_LPAR"}[] [Publisher Version](https://easychair.org/publications/paper/qdvJ) [HAL](https://hal.science/hal-04706459)
 {bibBox "2024_LPAR"}[]
 
 {blob hr}[]
@@ -174,7 +174,7 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf BibEntry
 - {anchor "2022_JFLA"}[]*Alt-Ergo-Fuzz: A fuzzer for the Alt-Ergo SMT solver* {blob br}[]
   *Hichem Rami Ait-El-Hara*, Guillaume Bury, and Steven de Oliveira. {blob br}[]
   JFLA 2022: 33èmes Journées Francophones des Langages Applicatifs. {blob br}[]
-  [Paper](./assets/papers/2022_JFLA.pdf) {bib "2022_JFLA"}[] [HAL](https://hal.inria.fr/hal-03626861)
+  [Paper](./assets/papers/2022_JFLA.pdf) {bib "2022_JFLA"}[] [Publisher Version|HAL](https://hal.inria.fr/hal-03626861)
 {bibBox "2022_JFLA"}[]
 
 {blob hr}[]
