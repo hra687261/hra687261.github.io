@@ -18,7 +18,6 @@ TODO:
 - BIO
 - Projects I'm currently working on
 - Talks I've given
-- Deep links
 - Favicon for browser pages
 - Open Graph / Social meta tags (for when the link is shared)
 - Either Pdf CV or a way to generate it

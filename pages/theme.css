@@ -97,6 +97,12 @@ li p { margin: 0.2em 0; }
 /* Publications page */
 .page-Publications ul { list-style: none; margin-left: 0; }
 .page-Publications li { margin: 0; }
+.page-Publications li:has(.anchor:target) {
+  background: var(--badge-bg);
+  border-radius: 6px;
+  padding: 0.4em 0.5em;
+  margin: -0.4em -0.5em;
+}
 .page-Publications hr {
   border: none;
   border-top: 1px solid var(--border);
