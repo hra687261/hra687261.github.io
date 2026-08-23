@@ -95,8 +95,16 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf NameArg
 
 ## 2026
 
+- {anchor "2026_Colibri2"}[]*colibri2: A CP solver for SMT problems* {blob br}[]
+   François Bobot, *Hichem Rami Ait-El-Hara*, and Bruno Marre. {blob br}[]
+   Preprint. {blob br}[]
+  [Paper](./assets/papers/2026_Colibri2.pdf) {bib "2026_Colibri2"}[] [HAL](https://cea.hal.science/cea-05644448)
+{bibBox "2026_Colibri2"}[]
+
+{blob hr}[]
+
 - {anchor "2026_TACAS"}[]*Smt.ml: A Multi-Backend Frontend for SMT Solvers in OCaml* {blob br}[]
-  João Madeira Pereira, Filipe Marques, Pedro Adão, *Hichem Rami Ait-El-Hara*, Léo Andrès, Arthur Carcano, Pierre Chambart, Petar Maksimović, Nuno Santos, José Fragoso Santos. {blob br}[]
+  João Madeira Pereira, Filipe Marques, Pedro Adão, *Hichem Rami Ait-El-Hara*, Léo Andrès, Arthur Carcano, Pierre Chambart, Petar Maksimović, Nuno Santos, and José Fragoso Santos. {blob br}[]
   TACAS @ ETAPS 2026: Tools and Algorithms for the Construction and Analysis of Systems: 32nd International Conference, Held as Part of the International Joint Conferences on Theory and Practice of Software, ETAPS 2026. {blob br}[]
   [Paper](./assets/papers/2026_TACAS.pdf) {bib "2026_TACAS"}[] [Publisher Version](https://link.springer.com/chapter/10.1007/978-3-032-22752-2_2) [HAL](https://inria.hal.science/hal-04761767v2)
 {bibBox "2026_TACAS"}[]
