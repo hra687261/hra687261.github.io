@@ -12,7 +12,9 @@ html, body { height: 100%; }
   --link: #1a6fb5;        /* link color */
   --link-hover: #0d4f84;  /* link color on hover */
   --link-visited: #6b5b95;/* visited link color */
-  --badge-bg: rgba(0, 0, 0, 0.055); /* publication reference-link badges */
+  --badge-bg: rgba(0, 0, 0, 0.055); /* reference-link badges */
+  --tag-bg: rgba(217, 119, 6, 0.15);   /* status tags, e.g. "Preprint" */
+  --tag-fg: #92400e;
 }
 
 /* Dark theme */
@@ -27,6 +29,8 @@ html, body { height: 100%; }
     --link-hover: #9ecbff;
     --link-visited: #b8a6e0;
     --badge-bg: rgba(255, 255, 255, 0.07);
+    --tag-bg: rgba(217, 119, 6, 0.2);
+    --tag-fg: #fbbf24;
   }
 }
 
@@ -185,6 +189,21 @@ li p { margin: 0.2em 0; }
   vertical-align: middle;
 }
 .link-badge:hover { color: var(--link); }
+
+/* Status tag, e.g. "Preprint" — deliberately distinct from .link-badge. */
+.tag {
+  display: inline-block;
+  color: var(--tag-fg);
+  background: var(--tag-bg);
+  padding: 0.1em 0.5em;
+  margin-left: 0.4em;
+  border-radius: 4px;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+}
 
 /* Footer */
 .footer {

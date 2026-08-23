@@ -43,6 +43,18 @@ def link : Verso.Doc.Elab.RoleExpanderOf LabeledUrlArg
         (Verso.Genre.Blog.InlineExt.blob (linkBadge $(Lean.quote url) $(Lean.quote label)))
         #[])
 
+-- For preprint
+def tagBadge (label : String) : Verso.Output.Html :=
+  .tag "span" #[("class", "tag")] (.text true label)
+
+@[role]
+def tag : Verso.Doc.Elab.RoleExpanderOf NameArg
+  | {name}, stxs => do
+    checkNoContents "{tag \"label\"}[]" stxs
+    ``(Verso.Doc.Inline.other
+        (Verso.Genre.Blog.InlineExt.blob (tagBadge $(Lean.quote name)))
+        #[])
+
 def mailtoLink (email : String) : Verso.Output.Html :=
   .tag "a" #[
     ("href", "#"),

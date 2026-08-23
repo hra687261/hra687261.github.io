@@ -95,9 +95,8 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf NameArg
 
 ## 2026
 
-- {anchor "2026_Colibri2"}[]*colibri2: A CP solver for SMT problems* {blob br}[]
+- {anchor "2026_Colibri2"}[]*colibri2: A CP solver for SMT problems* {tag "Preprint"}[] {blob br}[]
    François Bobot, *Hichem Rami Ait-El-Hara*, and Bruno Marre. {blob br}[]
-   Preprint. {blob br}[]
   [Paper](./assets/papers/2026_Colibri2.pdf) {bib "2026_Colibri2"}[] [HAL](https://cea.hal.science/cea-05644448)
 {bibBox "2026_Colibri2"}[]
 
