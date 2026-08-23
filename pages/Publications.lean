@@ -46,16 +46,9 @@ def bibBody (name bibtex : String) : Verso.Output.Html :=
 def bibMap : Std.HashMap String String :=
   Std.HashMap.ofList (include_dir_str_pairs "../assets/papers" ".bib")
 
-structure BibEntry where
-  name : String
-
-instance : Verso.ArgParse.FromArgs BibEntry Verso.Doc.Elab.DocElabM where
-  fromArgs := BibEntry.mk <$> .positional `name .string
-
 def checkBibName (usage name : String) (stxs : Lean.TSyntaxArray `inline) :
     Verso.Doc.Elab.DocElabM Unit := do
-  if h : stxs.size > 0 then
-    Lean.logErrorAt stxs[0] s!"Expected no contents, usage: {usage}"
+  checkNoContents usage stxs
   if bibMap[name]?.isNone then
     throwError m! "Unknown BibTeX entry {name}. \
       Known entries: {bibMap.toList.map Prod.fst}"
@@ -64,7 +57,7 @@ def checkBibName (usage name : String) (stxs : Lean.TSyntaxArray `inline) :
 badge for it. Pair with a `{bibBox "NAME"}[]` on its own line right after the
 badges line, to render the box the toggle reveals. -/
 @[role]
-def bib : Verso.Doc.Elab.RoleExpanderOf BibEntry
+def bib : Verso.Doc.Elab.RoleExpanderOf NameArg
   | {name}, stxs => do
     checkBibName "{bib \"NAME\"}[]" name stxs
     ``(Verso.Doc.Inline.other
@@ -74,7 +67,7 @@ def bib : Verso.Doc.Elab.RoleExpanderOf BibEntry
 /-- `{bibBox "NAME"}[]` renders the actual citation box for `NAME`, which
 `{bib "NAME"}[]`'s toggle badge reveals. -/
 @[role]
-def bibBox : Verso.Doc.Elab.RoleExpanderOf BibEntry
+def bibBox : Verso.Doc.Elab.RoleExpanderOf NameArg
   | {name}, stxs => do
     checkBibName "{bibBox \"NAME\"}[]" name stxs
     ``(Verso.Doc.Inline.other
@@ -87,10 +80,9 @@ def anchorSpan (id : String) : Verso.Output.Html :=
   .tag "span" #[("id", id), ("class", "anchor")] .empty
 
 @[role]
-def anchor : Verso.Doc.Elab.RoleExpanderOf BibEntry
+def anchor : Verso.Doc.Elab.RoleExpanderOf NameArg
   | {name}, stxs => do
-    if h : stxs.size > 0 then
-      Lean.logErrorAt stxs[0] "Expected no contents, usage: {anchor \"id\"}[]"
+    checkNoContents "{anchor \"id\"}[]" stxs
     ``(Verso.Doc.Inline.other
         (InlineExt.blob (anchorSpan $(Lean.quote name)))
         #[])

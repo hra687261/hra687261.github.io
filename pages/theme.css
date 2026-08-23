@@ -171,6 +171,21 @@ li p { margin: 0.2em 0; }
 .page-Publications .bibtex-copy.copied { color: #2e9c4b; border-color: #2e9c4b; }
 
 
+/* small badge link. */
+.link-badge {
+  display: inline-block;
+  color: var(--fg);
+  background: var(--badge-bg);
+  padding: 0.15em 0.55em;
+  margin-left: 0.3em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.link-badge:hover { color: var(--link); }
+
 /* Footer */
 .footer {
   margin-top: 3.5em;

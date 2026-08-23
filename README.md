@@ -15,8 +15,6 @@ lake exe generate-site
 
 TODO:
 - Move reports to the publications page
-- BIO
-- Projects I'm currently working on
 - Talks I've given
 - Favicon for browser pages
 - Open Graph / Social meta tags (for when the link is shared)
