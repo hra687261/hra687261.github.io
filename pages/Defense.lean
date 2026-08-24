@@ -5,6 +5,7 @@ open Verso Genre Blog
 def mapEmbed : Verso.Output.Html :=
   .tag "iframe" #[
     ("src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1168.867709196782!2d2.1932823933723298!3d48.71264116119375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e678bc31c94b7f%3A0x82cc4460edf8740!2sB%C3%A2timent%20862%2C%20D128%2C%2091120%20Palaiseau!5e1!3m2!1sen!2sfr!4v1758880271048!5m2!1sen!2sfr"),
+    ("title", "Map to CEA-List Nano-INNOV Building 862, Palaiseau"),
     ("width", "600"),
     ("height", "450"),
     ("style", "border:0;"),

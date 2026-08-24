@@ -113,32 +113,32 @@ li p { margin: 0.2em 0; }
   margin: 0.3em 0 1.6em;
 }
 .page-Publications hr:last-of-type { margin-bottom: 0.3em; }
+
+/* Small badge link, shared by {link ...}[] */
+.link-badge,
+.page-Publications .bibtex-toggle,
 .page-Publications li p a {
   display: inline-block;
   color: var(--fg);
   background: var(--badge-bg);
   padding: 0.15em 0.55em;
-  margin: 0.3em 0.3em 0 0;
+  margin-left: 0.3em;
   border-radius: 4px;
   font-size: 0.85em;
   font-weight: 600;
   text-decoration: none;
+  vertical-align: middle;
 }
+.link-badge:hover,
+.page-Publications .bibtex-toggle:hover,
 .page-Publications li p a:hover { color: var(--link); }
 
-/* BibTeX Box toggle badge and box. */
+/* BibTeX box. */
 .page-Publications .bibtex-toggle {
-  display: inline-block;
   cursor: pointer;
-  color: var(--fg);
-  background: var(--badge-bg);
-  padding: 0.15em 0.55em;
-  margin: 0.3em 0.3em 0 0;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-weight: 600;
+  border: none;
+  font-family: inherit;
 }
-.page-Publications .bibtex-toggle:hover { color: var(--link); }
 .page-Publications .bibtex-body { display: none; position: relative; margin-top: 0.3em; }
 .page-Publications .bibtex-body.open { display: block; }
 .page-Publications .bibtex-body pre {
@@ -175,22 +175,7 @@ li p { margin: 0.2em 0; }
 .page-Publications .bibtex-copy.copied { color: #2e9c4b; border-color: #2e9c4b; }
 
 
-/* small badge link. */
-.link-badge {
-  display: inline-block;
-  color: var(--fg);
-  background: var(--badge-bg);
-  padding: 0.15em 0.55em;
-  margin-left: 0.3em;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-weight: 600;
-  text-decoration: none;
-  vertical-align: middle;
-}
-.link-badge:hover { color: var(--link); }
-
-/* Status tag, e.g. "Preprint" — deliberately distinct from .link-badge. */
+/* Status tag, e.g. "Preprint". */
 .tag {
   display: inline-block;
   color: var(--tag-fg);

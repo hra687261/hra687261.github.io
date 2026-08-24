@@ -23,11 +23,11 @@ Among the projects I work on/contribute to:
   offering a common front-end for multiple SMT solvers.
   {link "https://github.com/formalsec/smtml"}[]
 - [Dolmen](https://github.com/gbury/dolmen): A library and tool that offers,
-  parsing, type-checking and model
-verification for SMT-LIB problems (and problems in other logic languages).
-{link "https://github.com/gbury/dolmen"}[]
+  parsing, type-checking and model verification for SMT-LIB problems (and
+  problems in other logic languages).
+  {link "https://github.com/gbury/dolmen"}[]
 
-In 2025, I succesfully defended my PhD thesis titled ["A theory of sequences
+In 2025, I successfully defended my PhD thesis titled ["A theory of sequences
 tailored for program verification"](/Publications/#PhD_manuscript), which I
 prepared jointly at OCamlPro and the CEA-List lab of University Paris-Saclay.
 In 2021, I obtained a masters degree from Sorbonne University, focused on the
