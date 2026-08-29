@@ -138,6 +138,7 @@ li p { margin: 0.2em 0; }
   cursor: pointer;
   border: none;
   font-family: inherit;
+  line-height: inherit;
 }
 .page-Publications .bibtex-body { display: none; position: relative; margin-top: 0.3em; }
 .page-Publications .bibtex-body.open { display: block; }
