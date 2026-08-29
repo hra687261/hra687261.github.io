@@ -11,6 +11,14 @@ def theme : Theme := { Theme.default with
     let path ← currentPath
     let current := path.getD 0 "Home"
     let navClass (name : String) : String := if name == current then "nav current" else "nav"
+    let aboutMe (suffix : String) : String := "Hichem Rami Ait-El-Hara — " ++ suffix
+    let pageDescription : String :=
+      match current with
+      | "CV" => aboutMe "Formal Methods R&D Engineer — CV."
+      | "Publications" => aboutMe "Publications."
+      | "Service" => aboutMe "Service."
+      | "Defense" => aboutMe "PhD defense."
+      | _ => aboutMe "Formal Methods R&D Engineer at OCamlPro."
     let postList :=
       match (← param? "posts") with
       | none => Html.empty
@@ -22,7 +30,7 @@ def theme : Theme := { Theme.default with
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <title>{{← param (α := String) "title"}} " — Hichem Rami Ait-El-Hara"</title>
           <meta name="author" content="Hichem Rami Ait-El-Hara"/>
-          <meta name="description" content="Hichem Rami Ait-El-Hara — Formal Methods R&D Engineer"/>
+          <meta name="description" content={{pageDescription}}/>
           <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
           {{← builtinHeader}}
           <style>{{siteCSS}}</style>
