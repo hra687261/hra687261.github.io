@@ -7,10 +7,20 @@ This repository contains the source code of
 [leodemoura.github.com](https://github.com/leodemoura/leodemoura.github.com))
 
 Build with:
-
 ```
 lake build
-lake exe generate-site
+```
+or:
+```
+make
+```
+Deploy locally for testing with:
+```
+make serve
+```
+Stop the local server with:
+```
+make stop
 ```
 
 TODO:
