@@ -16,6 +16,5 @@ lake exe generate-site
 TODO:
 - Move reports to the publications page
 - Talks I've given
-- Favicon for browser pages
 - Open Graph / Social meta tags (for when the link is shared)
 - Either Pdf CV or a way to generate it

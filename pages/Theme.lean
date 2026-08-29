@@ -23,6 +23,7 @@ def theme : Theme := { Theme.default with
           <title>{{← param (α := String) "title"}} " — Hichem Rami Ait-El-Hara"</title>
           <meta name="author" content="Hichem Rami Ait-El-Hara"/>
           <meta name="description" content="Hichem Rami Ait-El-Hara — Formal Methods R&D Engineer"/>
+          <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
           {{← builtinHeader}}
           <style>{{siteCSS}}</style>
         </head>
