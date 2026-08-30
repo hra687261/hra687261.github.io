@@ -24,5 +24,4 @@ make stop
 ```
 
 TODO:
-- Talks I've given
 - Either PDF CV or a way to generate it

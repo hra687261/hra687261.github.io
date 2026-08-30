@@ -112,23 +112,30 @@ li p { margin: 0.2em 0; }
 }
 .page-Publications > section:last-of-type > ul li { margin-bottom: 0.6em; }
 
+/* Talks page: entries are directly in the page's single <section>. */
+.page-Talks > section > ul { list-style: none; margin-left: 0; }
+.page-Talks > section > ul li { margin: 0; }
+
 .page-Publications li:has(.anchor:target) {
   background: var(--badge-bg);
   border-radius: 6px;
   padding: 0.4em 0.5em;
   margin: -0.4em -0.5em;
 }
-.page-Publications hr {
+.page-Publications hr,
+.page-Talks hr {
   border: none;
   border-top: 1px solid var(--border);
   margin: 0.3em 0 1.6em;
 }
-.page-Publications hr:last-of-type { margin-bottom: 0.3em; }
+.page-Publications hr:last-of-type,
+.page-Talks hr:last-of-type { margin-bottom: 0.3em; }
 
 /* Small badge link, shared by {link ...}[] */
 .link-badge,
 .page-Publications .bibtex-toggle,
-.page-Publications li p a {
+.page-Publications li p a,
+.page-Talks li p a {
   display: inline-block;
   color: var(--fg);
   background: var(--badge-bg);
@@ -142,7 +149,8 @@ li p { margin: 0.2em 0; }
 }
 .link-badge:hover,
 .page-Publications .bibtex-toggle:hover,
-.page-Publications li p a:hover { color: var(--link); }
+.page-Publications li p a:hover,
+.page-Talks li p a:hover { color: var(--link); }
 
 /* BibTeX box. */
 .page-Publications .bibtex-toggle {

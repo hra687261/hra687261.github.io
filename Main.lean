@@ -3,6 +3,7 @@ import Theme
 import Home
 import CV
 import Publications
+import Talks
 import Service
 import Defense
 
@@ -12,6 +13,7 @@ def blog : Site := site Home /
   static "assets" ← "assets"
   "CV" CV
   "Publications" Publications
+  "Talks" Talks
   "Service" Service
   "Defense" Defense
 

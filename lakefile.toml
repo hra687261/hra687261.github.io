@@ -27,6 +27,10 @@ name = "Publications"
 srcDir = "pages"
 
 [[lean_lib]]
+name = "Talks"
+srcDir = "pages"
+
+[[lean_lib]]
 name = "Service"
 srcDir = "pages"
 
