@@ -19,7 +19,7 @@ open Verso Genre Blog
 {blob hr}[]
 
 - *Different approaches to represent and reason over n-Indexed Sequences in SMT* {blob br}[]
-  Vassal Workshop, Graz, Austria — September 9, 2025. {blob br}[]
+  VASSAL Workshop @ RV 2026, Graz, Austria — September 9, 2025. {blob br}[]
   {link "https://vassal.fit.vut.cz/vassal-workshop-on-software-verification-and-runtime-analysis" "Event page"}[]
 
 {blob hr}[]
