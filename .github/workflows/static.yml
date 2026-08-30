@@ -33,6 +33,7 @@ jobs:
         run: |
           lake build
           lake exe generate-site
+          cp 404.html _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

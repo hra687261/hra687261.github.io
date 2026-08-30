@@ -8,6 +8,7 @@ build:
 
 site: build
 	lake exe generate-site
+	cp 404.html _site/
 
 serve: site
 	@if [ -f $(PIDFILE) ] && kill -0 "$$(cat $(PIDFILE))" 2>/dev/null; then \

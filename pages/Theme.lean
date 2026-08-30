@@ -2,6 +2,8 @@ import VersoBlog
 open Verso Genre Blog
 
 def siteCSS : String := include_str "theme.css"
+def siteUrl : String := "https://hra687261.github.io/"
+def ogImageUrl : String := siteUrl ++ "assets/og/og-image.png"
 
 namespace Site
 
@@ -20,7 +22,8 @@ def theme : Theme := { Theme.default with
       | "Service" => aboutMe "Service."
       | "Defense" => aboutMe "PhD defense."
       | _ => aboutMe "Formal Methods R&D Engineer at OCamlPro."
-    let pageUrl : String := "https://hra687261.github.io/" ++ path.foldl (init := "") fun acc p => acc ++ p ++ "/"
+    let pageUrl : String := siteUrl ++ path.foldl (init := "") fun acc p => acc ++ p ++ "/"
+    let fullTitle : String := title ++ " — Hichem Rami Ait-El-Hara"
     let postList :=
       match (← param? "posts") with
       | none => Html.empty
@@ -30,14 +33,17 @@ def theme : Theme := { Theme.default with
         <head>
           <meta charset="utf-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <title>{{title}} " — Hichem Rami Ait-El-Hara"</title>
+          <title>{{fullTitle}}</title>
           <meta name="author" content="Hichem Rami Ait-El-Hara"/>
           <meta name="description" content={{pageDescription}}/>
           <meta property="og:type" content="website"/>
           <meta property="og:site_name" content="Hichem Rami Ait-El-Hara"/>
           <meta property="og:url" content={{pageUrl}}/>
-          <meta property="og:title" content={{title}}/>
+          <meta property="og:title" content={{fullTitle}}/>
           <meta property="og:description" content={{pageDescription}}/>
+          <meta property="og:image" content={{ogImageUrl}}/>
+          <meta property="og:image:width" content="1200"/>
+          <meta property="og:image:height" content="630"/>
           <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
           {{← builtinHeader}}
           <style>{{siteCSS}}</style>
@@ -71,12 +77,9 @@ def theme : Theme := { Theme.default with
     }}
   pageTemplate := do
     let path ← currentPath
-    let title ← param (α := String) "title"
-    let showTitle := path != #[] && path != #["Publications"] && path != #["Service"]
     let pageClass := "page-" ++ path.getD 0 "Home"
     return {{
       <article class = {{pageClass}}>
-        {{ if showTitle then {{ <h1>{{title}}</h1> }} else Html.empty }}
         {{← param "content"}}
       </article>
     }}

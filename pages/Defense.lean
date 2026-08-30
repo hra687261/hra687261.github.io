@@ -8,7 +8,7 @@ def mapEmbed : Verso.Output.Html :=
     ("title", "Map to CEA-List Nano-INNOV Building 862, Palaiseau"),
     ("width", "600"),
     ("height", "450"),
-    ("style", "border:0;"),
+    ("style", "border:0; max-width:100%;"),
     ("allowfullscreen", ""),
     ("loading", "lazy"),
     ("referrerpolicy", "no-referrer-when-downgrade")
@@ -23,17 +23,20 @@ showInNav := false
 
 By Hichem Rami AIT EL HARA
 
-I will defend my PhD thesis on October 15th, 2025 at 14h00, in
-[Amphi 33 - CEA Nano-INNOV Building 862 - 1st floor, 2 boulevard Thomas Gobert 91120 Palaiseau France.](https://maps.app.goo.gl/3R6Ldw1xpfk54QmT6) {blob br}[]
-The entrance (for externals) to the site is from [Sent. de Corbeville](https://maps.app.goo.gl/a6ppU2dWvpYmjRgp8) ([on OSM](https://www.openstreetmap.org/way/140538729)), for more info on how to get there [click here](assets/other/Venir_a_Nano_INNOV_2024.pdf).
+This defense has taken place. The manuscript and slides are listed under the [PhD manuscript entry](/Publications/#PhD_manuscript) in the publications page.
 
-The defense will be retransmitted online on [Livestorm](https://app.livestorm.co/cea_list/soutenance-hichem-ait-el-hara?s=f4001161-2f4f-45ff-a73f-f6beed0d7e69).
 
-If you're planning to attend in person please let me know by filling out this form: [https://framadate.org/XBMZNfCje613Bu3I](https://framadate.org/XBMZNfCje613Bu3I).
+> I will defend my PhD thesis on October 15th, 2025 at 14h00, in
+> [Amphi 33 - CEA Nano-INNOV Building 862 - 1st floor, 2 boulevard Thomas Gobert 91120 Palaiseau France.](https://maps.app.goo.gl/3R6Ldw1xpfk54QmT6) {blob br}[]
+> The entrance (for externals) to the site is from [Sent. de Corbeville](https://maps.app.goo.gl/a6ppU2dWvpYmjRgp8) ([on OSM](https://www.openstreetmap.org/way/140538729)), for more info on how to get there [click here](assets/other/Venir_a_Nano_INNOV_2024.pdf).
 
-_(Note: If you are not a EU citizen, please email me at hra687261(at)gmail(dot)com so that I can make sure you can access the site)_
+> The defense will be retransmitted online on [Livestorm](https://app.livestorm.co/cea_list/soutenance-hichem-ait-el-hara?s=f4001161-2f4f-45ff-a73f-f6beed0d7e69).
 
-Both the slides and the presentation will be in *English*.
+> If you're planning to attend in person please let me know by filling out this form: [https://framadate.org/XBMZNfCje613Bu3I](https://framadate.org/XBMZNfCje613Bu3I).
+
+> _(Note: If you are not a EU citizen, please email me at hra687261(at)gmail(dot)com so that I can make sure you can access the site)_
+
+> Both the slides and the presentation will be in *English*.
 
 # Abstract
 
