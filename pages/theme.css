@@ -202,6 +202,18 @@ li p { margin: 0.2em 0; }
   vertical-align: middle;
 }
 
+/* Defense page: grey out oriignal announcement. */
+.page-Defense blockquote {
+  color: var(--muted);
+  border-left: 3px solid var(--border);
+  padding-left: 1em;
+  margin: 1.5em 0;
+}
+/* Merge block quotes. */
+.page-Defense blockquote + blockquote { margin-top: 0; }
+.page-Defense blockquote a { color: var(--muted); text-decoration: underline; }
+.page-Defense blockquote a:hover { color: var(--link); }
+
 /* Footer */
 .footer {
   margin-top: 3.5em;
