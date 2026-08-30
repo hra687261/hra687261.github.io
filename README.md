@@ -24,6 +24,5 @@ make stop
 ```
 
 TODO:
-- Move reports to the publications page
 - Talks I've given
 - Either PDF CV or a way to generate it

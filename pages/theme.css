@@ -99,8 +99,19 @@ li p { margin: 0.2em 0; }
 /* Verso wraps list-item text in <p>, keep it tight */
 
 /* Publications page */
-.page-Publications ul { list-style: none; margin-left: 0; }
-.page-Publications li { margin: 0; }
+/* Publications section: each "## year" heading nests its own <section>, so
+   citation entries live two <section>s deep (page section > year section).
+   Lists do not use bullets. */
+.page-Publications section section ul { list-style: none; margin-left: 0; }
+.page-Publications section section li { margin: 0; }
+
+/* Reports section: one <section> deep, and the last one. Lists use bullets. */
+.page-Publications > section:last-of-type > ul {
+  list-style: disc;
+  margin-left: 1.3em;
+}
+.page-Publications > section:last-of-type > ul li { margin-bottom: 0.6em; }
+
 .page-Publications li:has(.anchor:target) {
   background: var(--badge-bg);
   border-radius: 6px;
