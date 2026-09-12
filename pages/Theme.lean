@@ -17,7 +17,6 @@ def theme : Theme := { Theme.default with
     let aboutMe (suffix : String) : String := "Hichem Rami Ait-El-Hara — " ++ suffix
     let pageDescription : String :=
       match current with
-      | "CV" => aboutMe "Formal Methods R&D Engineer — CV."
       | "Publications" => aboutMe "Publications."
       | "Talks" => aboutMe "Talks."
       | "Service" => aboutMe "Service."
@@ -56,7 +55,6 @@ def theme : Theme := { Theme.default with
                 <a class="name" href="/">"Hichem Rami AIT EL HARA"</a>
                 <nav class="nav-links">
                   <a class = {{navClass "Home"}} href="/">"Home"</a>
-                  <a class = {{navClass "CV"}} href="/CV/">"CV"</a>
                   <a class = {{navClass "Publications"}} href="/Publications/">"Publications"</a>
                   <a class = {{navClass "Talks"}} href="/Talks/">"Talks"</a>
                   <a class = {{navClass "Service"}} href="/Service/">"Service"</a>

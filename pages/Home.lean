@@ -30,10 +30,24 @@ Among the projects I work on/contribute to:
 In 2025, I successfully defended my PhD thesis titled ["A theory of sequences
 tailored for program verification"](/Publications/#PhD_manuscript), which I
 prepared jointly at OCamlPro and the CEA-List lab of University Paris-Saclay.
-In 2021, I obtained a masters degree from Sorbonne University, focused on the
+In 2021, I obtained my masters degree from Sorbonne University, focused on the
 theory of programming languages, functional programming and formal methods
-(notably abstract interpretation and theorem proving with Rocq).
-See my {page_link CV}[CV page] for a full overview of my background.
+(notably static analysis by abstract interpretation and theorem proving with
+the Rocq prover).
 
-To reach out, you can write to me at {mailto "hra687261(at)gmail(dot)com"}[],
-or through the links below.
+To reach out, you can write to me at {mailto "hra687261(at)gmail(dot)com"}[].
+
+# Professional experience
+
+- R&D Engineer at [OCamlPro](https://ocamlpro.com/), since Sep 2021.
+- PhD Student at [Université Paris-Saclay, CEA, List](https://list.cea.fr/en/), from Sep 2022 to Oct 2025.
+- R&D Intern at [OCamlPro](https://ocamlpro.com/), from Mar 2021 to Sep 2021.
+
+# Education
+
+- Doctorate in computer science from Paris-Saclay University, successfully defended on the 15th Oct 2025.
+  More info at {page_link Defense}[defense page].
+- Master's degree in computer science from Sorbonne University, Sep 2021.
+  - Title: Software Science and Technology (Fr: STL — Science et Technologie du Logiciel), R&D branch, Software safety and reliability thematic.
+  -- - Main subjects: Algorithmics, Formal methods, Type checking, Static analysis, Program verification, Operational semantics and Process algebras.
+- Bachelor's degree in computer science from Sorbonne University, Sep 2019.
