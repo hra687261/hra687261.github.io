@@ -49,5 +49,5 @@ To reach out, you can write to me at {mailto "hra687261(at)gmail(dot)com"}[].
   More info at {page_link Defense}[defense page].
 - Master's degree in computer science from Sorbonne University, Sep 2021.
   - Title: Software Science and Technology (Fr: STL — Science et Technologie du Logiciel), R&D branch, Software safety and reliability thematic.
-  -- - Main subjects: Algorithmics, Formal methods, Type checking, Static analysis, Program verification, Operational semantics and Process algebras.
+  - Main subjects: Algorithmics, Formal methods, Type checking, Static analysis, Program verification, Operational semantics and Process algebras.
 - Bachelor's degree in computer science from Sorbonne University, Sep 2019.
