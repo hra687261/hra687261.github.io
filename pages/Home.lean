@@ -8,7 +8,7 @@ open Verso Genre Blog
 
 PhD, R&D engineer at [OCamlPro](https://ocamlpro.com/), my work and research
 interests lie in the field of formal methods and their applications. I am
-notably interested in SMT solving, Symbolic Execution, Deductive Verification
+notably interested in SMT Solving, Symbolic Execution, Deductive Verification
 and Constraint Programming. Check out my {page_link Publications}[publications
 page] to see some of my work.
 
@@ -27,7 +27,7 @@ Among the projects I work on/contribute to:
   problems in other logic languages).
   {link "https://github.com/gbury/dolmen"}[]
 
-In 2025, I successfully defended my PhD thesis titled ["A theory of sequences
+In 2025, I defended my PhD thesis titled ["A theory of sequences
 tailored for program verification"](/Publications/#PhD_manuscript), which I
 prepared jointly at OCamlPro and the CEA-List lab of University Paris-Saclay.
 In 2021, I obtained my masters degree from Sorbonne University, focused on the
@@ -45,9 +45,9 @@ To reach out, you can write to me at {mailto "hra687261(at)gmail(dot)com"}[].
 
 # Education
 
-- Doctorate in computer science from Paris-Saclay University, successfully defended on the 15th Oct 2025.
+- Doctorate in computer science from Paris-Saclay University, defended on the 15th Oct 2025.
   More info at {page_link Defense}[defense page].
 - Master's degree in computer science from Sorbonne University, Sep 2021.
-  - Title: Software Science and Technology (Fr: STL — Science et Technologie du Logiciel), R&D branch, Software safety and reliability thematic.
+  - Title: Software Science and Technology (Fr: STL — Science et Technologie du Logiciel), R&D track focused on Software safety and reliability.
   - Main subjects: Algorithmics, Formal methods, Type checking, Static analysis, Program verification, Operational semantics and Process algebras.
 - Bachelor's degree in computer science from Sorbonne University, Sep 2019.
