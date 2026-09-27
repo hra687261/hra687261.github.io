@@ -10,7 +10,7 @@ PhD, R&D engineer at [OCamlPro](https://ocamlpro.com/), my work and research
 interests lie in the field of formal methods and their applications. I am
 notably interested in SMT Solving, Symbolic Execution, Deductive Verification
 and Constraint Programming. Check out my {page_link Publications}[publications
-page] to see some of my work.
+page] to see some of my work, or download my {link "./assets/cv/CV.pdf" "CV"}[].
 
 Among the projects I work on/contribute to:
 - [Alt-Ergo](https://alt-ergo.ocamlpro.com/): An SMT solver, designed for
@@ -27,8 +27,8 @@ Among the projects I work on/contribute to:
   problems in other logic languages).
   {link "https://github.com/gbury/dolmen"}[]
 
-In 2025, I defended my PhD thesis titled ["A theory of sequences
-tailored for program verification"](/Publications/#PhD_manuscript), which I
+In 2025, I defended my PhD thesis titled ["A Theory of Sequences
+Tailored for Program Verification"](/Publications/#PhD_manuscript), which I
 prepared jointly at OCamlPro and the CEA-List lab of University Paris-Saclay.
 In 2021, I obtained my masters degree from Sorbonne University, focused on the
 theory of programming languages, functional programming and formal methods

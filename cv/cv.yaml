@@ -1,0 +1,201 @@
+cv:
+  name: Hichem Rami AIT EL HARA
+  headline: PhD in Computer Science · R&D Engineer · Expert in Formal Methods & SMT Solving
+  location: "Palaiseau, France"
+  email: hra687261@gmail.com
+  website: https://hra687261.github.io/
+  social_networks:
+    - network: GitHub
+      username: hra687261
+    - network: LinkedIn
+      username: hra687261
+    - network: ORCID
+      username: 0000-0001-7909-0413
+    - network: Google Scholar
+      username: _u9Ed_UAAAAJ
+  sections:
+    summary:
+      - Formal methods researcher and engineer, with 5 years of experience
+        working at a French R&D consultancy, conducting studies, implementing
+        prototypes and delivering solutions to industrial and academic clients
+        and partners. Author and co-author of 9 publications at venues
+        including PLDI, TACAS, and LPAR, and contributor to multiple
+        open-source projects.
+
+    skills:
+      - label: "Formal Methods & Verification"
+        details: "SMT Solving, Constraint Programming, Deductive Verification,
+          Symbolic Execution, Code Transformation, Interactive Theorem Proving,
+          Abstract Interpretation, Functional Programming, Data Structures"
+      - label: "Programming Languages"
+        details: OCaml (Expert), Python, Lean, Rust (Novice), C, Rocq, Java, Scala (From school)
+      - label: "Development Tools"
+        details: "Git, VS Code, Unix, L#h(-0.33em)#text(size: 0.7em, baseline: -0.3em)[A]#h(-0.12em)T#h(-0.2em)#text(size: 1em, baseline: 0.23em)[E]#h(-0.1em)X, Typst (Experienced), Nix (Novice)"
+        # #import\"@preview/metalogo:1.2.0\":LaTeX\n#LaTeX
+      - label: "Languages"
+        details: "English (Fluent), French (Fluent), Kabyle (Native), Arabic (Fluent), Spanish (Basic)"
+
+    experience:
+      - company: "[OCamlPro](https://www.ocamlpro.com/)"
+        position: R&D Engineer
+        start_date: 2021-09
+        end_date: present
+        highlights:
+          - "Conducted studies, implemented prototypes and delivered solutions for industrial and academic clients and partners"
+          - "Contributed to multiple open-source projects ([Alt-Ergo](https://github.com/OCamlPro/alt-ergo), [Owi](https://github.com/OCamlPro/owi), [Colibri2](https://colibri.frama-c.com/), [Smtml](https://github.com/formalsec/smtml), [Dolmen](https://github.com/gbury/dolmen), ...)"
+          - "Managed relationships with clients and prospects, organized and led technical meetings, and secured funding for R&D projects"
+      - company: "[Université Paris-Saclay](https://www.universite-paris-saclay.fr/), [CEA List](https://list.cea.fr/en/)"
+        position: "PhD Student (CIFRE PhD, jointly with OCamlPro)"
+        date: "Sept 2022 – Oct 2025\n3 years 1 month"
+        highlights:
+          - "Designed an SMT theory of sequences tailored for the verification of Ada programs"
+          - "Authored and co-authored multiple research papers (see Publications)"
+          - "Implemented multiple calculi to reason over SMT problems using (n-indexed) sequences and a difference logic engine"
+          - "Developed the labeled union-find data structure and used it both to reason over SMT sequences and to implement a new interval domain for real and integer arithmetic based on it"
+      - company: "[OCamlPro](https://www.ocamlpro.com/)"
+        position: R&D Intern
+        date: "Mar 2021 – Sept 2021\n6 months"
+        highlights:
+          - "Developed [Alt-Ergo-Fuzz](https://github.com/hra687261/alt-ergo-fuzz), a fuzzer for the [Alt-Ergo](https://github.com/OCamlPro/alt-ergo) SMT solver, published at JFLA 2022"
+          - "Implemented context reinitialization in [Alt-Ergo](https://github.com/OCamlPro/alt-ergo), making it possible to reuse one running instance for multiple problems"
+          - "Found both runtime and subtle soundness bugs, most of which have been fixed since"
+
+    education:
+      - institution: "[Université Paris-Saclay](https://www.universite-paris-saclay.fr/), [CEA List](https://list.cea.fr/en/)"
+        area: Computer Science
+        degree: PhD
+        start_date: 2022-09
+        end_date: 2025-10
+        highlights:
+          - "Thesis: [*Theory of Sequences Tailored for Program Verification*](https://theses.fr/2025UPASG067) (CIFRE PhD prepared jointly with OCamlPro, [defended on 15 October 2025](https://hra687261.github.io/Defense/))"
+      - institution: "[Sorbonne University](https://www.sorbonne-universite.fr/en)"
+        area: Computer Science
+        degree: MSc
+        date: 2021-09
+        highlights:
+          - "[Software Science and Technology (STL — Science et Technologie du Logiciel)](https://sciences.sorbonne-universite.fr/en/formation-sciences/masters/master-informatique/parcours-stl), R&D track focused on Software safety and reliability"
+          - "Main subjects: Algorithmics, Formal Methods, Type Checking, Static Analysis, Program Verification, Operational Semantics and Process Algebras"
+      - institution: "[Sorbonne University](https://www.sorbonne-universite.fr/en)"
+        area: Computer Science
+        degree: BSc
+        date: 2019-09
+
+    publications:
+      - title: "colibri2: A CP solver for SMT problems"
+        authors:
+          - François Bobot
+          - "**Hichem Rami Ait-El-Hara**"
+          - Bruno Marre
+        date: 2026-03
+        journal: Preprint
+        url: https://cea.hal.science/cea-05644448
+      - title: "Smt.ml: A Multi-Backend Frontend for SMT Solvers in OCaml"
+        authors:
+          - João Madeira Pereira
+          - Filipe Marques
+          - Pedro Adão
+          - "**Hichem Rami Ait-El-Hara**"
+          - Léo Andrès
+          - Arthur Carcano
+          - Pierre Chambart
+          - Petar Maksimović
+          - Nuno Santos
+          - José Fragoso Santos
+        date: 2026-04
+        journal: "TACAS @ ETAPS 2026"
+        url: https://link.springer.com/chapter/10.1007/978-3-032-22752-2_2
+      - title: "Theory of Sequences Tailored for Program Verification"
+        authors:
+          - "**Hichem Rami Ait-El-Hara**"
+        date: 2025-11
+        journal: PhD Dissertation
+        url: https://theses.fr/2025UPASG067
+      - title: "Reasoning over n-Indexed Sequences in SMT"
+        authors:
+          - "**Hichem Rami Ait-El-Hara**"
+          - François Bobot
+          - Guillaume Bury
+        date: 2025-08
+        journal: "Acta Informatica — Selected Extended Papers of SMT 2024 and Related Papers"
+        url: https://link.springer.com/article/10.1007/s00236-025-00496-w
+      - title: "Constraint Propagation for Bit-Vectors in Alt-Ergo"
+        authors:
+          - "**Hichem Rami Ait-El-Hara**"
+          - Guillaume Bury
+          - Basile Clément
+          - Pierre Villemot
+        date: 2025-08
+        journal: "SMT 2025: 23rd International Workshop on Satisfiability Modulo Theories"
+        url: https://ceur-ws.org/Vol-4008/
+      - title: "Relational Abstractions Based on Labeled Union-Find"
+        authors:
+          - Dorian Lesbre
+          - Matthieu Lemerre
+          - "**Hichem Rami Ait-El-Hara**"
+          - François Bobot
+        date: 2025-06
+        journal: "PLDI 2025: 46th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+        url: https://dl.acm.org/doi/10.1145/3729298
+      - title: "An SMT Theory for n-Indexed Sequences"
+        summary: "Extended abstract; see the full paper above (Reasoning over n-Indexed Sequences in SMT, Acta Informatica)"
+        authors:
+          - "**Hichem Rami Ait-El-Hara**"
+          - François Bobot
+          - Guillaume Bury
+        date: 2024-07
+        journal: "SMT 2024: 22nd International Workshop on Satisfiability Modulo Theories"
+        url: https://ceur-ws.org/Vol-3725/
+      - title: "On SMT Theory Design: The Case of Sequences"
+        authors:
+          - "**Hichem Rami Ait-El-Hara**"
+          - François Bobot
+          - Guillaume Bury
+        date: 2024-05
+        journal: "LPAR 2024: 25th Conference On Logic For Programming, Artificial Intelligence and Reasoning"
+        url: https://easychair.org/publications/paper/qdvJ
+      - title: "Alt-Ergo-Fuzz: A fuzzer for the Alt-Ergo SMT solver"
+        authors:
+          - "**Hichem Rami Ait-El-Hara**"
+          - Guillaume Bury
+          - Steven de Oliveira
+        date: 2022-06
+        journal: "JFLA 2022: 33èmes Journées Francophones des Langages Applicatifs"
+        url: https://hal.inria.fr/hal-03626861
+
+    talks & service:
+      - "See [Talks](https://hra687261.github.io/Talks) and
+        [Service](https://hra687261.github.io/Service) for a full list of
+        invited talks, presentations, and reviewing/committee activities."
+
+design:
+  theme: classic
+  colors:
+    body: rgb(51, 51, 51)
+    name: rgb(26, 111, 181)
+    headline: rgb(102, 102, 102)
+    connections: rgb(51, 51, 51)
+    section_titles: rgb(26, 111, 181)
+    links: rgb(26, 111, 181)
+  typography:
+    alignment: left
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    small_caps:
+      section_titles: true
+  links:
+    show_external_link_icon: true
+  header:
+    space_below_name: 0.5cm
+    space_below_headline: 0.5cm
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.75pt
+  sections:
+    space_between_regular_entries: 1em
+    space_between_text_based_entries: 0.25em
+    show_time_spans_in:
+      - experience

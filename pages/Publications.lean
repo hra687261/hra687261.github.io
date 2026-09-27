@@ -115,7 +115,7 @@ def anchor : Verso.Doc.Elab.RoleExpanderOf NameArg
 
 ## 2025
 
-- {anchor "PhD_manuscript"}[]*Theory of sequences tailored for program verification* {blob br}[]
+- {anchor "PhD_manuscript"}[]*Theory of Sequences Tailored for Program Verification* {blob br}[]
   *Hichem Rami Ait-El-Hara*. {blob br}[]
   PhD manuscript, published in Nov 2025. {blob br}[]
   {link "https://theses.fr/2025UPASG067" "Archive"}[] {bib "PhD_manuscript"}[] {link "./assets/papers/PhD_manuscript.pdf" "Manuscript"}[] {link "./assets/papers/PhD_defense_slides.pdf" "Slides"}[] {link "https://theses.hal.science/tel-05383515" "HAL"}[] {page_link Defense}[Defense Page]

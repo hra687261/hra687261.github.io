@@ -1,12 +1,25 @@
 PORT := 8080
 PIDFILE := .site-server.pid
+CV_YAML := cv/cv.yaml
+CV_DIR := assets/cv
+CV_OUT := cv/rendercv_output
 
-.PHONY: build site serve stop clean
+.PHONY: build site serve stop clean cv cv-hacking
 
 build:
 	lake build
 
-site: build
+cv:
+	rendercv render --dont-generate-markdown --dont-generate-png "$(CV_YAML)"
+	mkdir -p $(CV_DIR)
+	cp $(CV_OUT)/*.pdf $(CV_DIR)/CV.pdf
+	rm -rf $(CV_OUT)
+
+cv-hacking:
+	rendercv render --watch --dont-generate-markdown --dont-generate-png \
+		--pdf-path "../$(CV_DIR)/CV.pdf" "$(CV_YAML)"
+
+site: build cv
 	lake exe generate-site
 	cp 404.html _site/
 
