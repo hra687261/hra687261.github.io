@@ -26,6 +26,15 @@ Among the projects I work on/contribute to:
   parsing, type-checking and model verification for SMT-LIB problems (and
   problems in other logic languages).
   {link "https://github.com/gbury/dolmen"}[]
+- [Benchpress](https://github.com/sneeuwballen/benchpress): A benchmarking and
+  testing tool for automated solvers/provers (SAT, SMT, ATP, ...).
+  {link "https://github.com/sneeuwballen/benchpress"}[]
+- [smt-lsp-vscode-extension](https://github.com/hra687261/smt-lsp-vscode-extension):
+  A VS Code extension providing LSP support with type-checking and syntax
+  highlighting for SMT-LIB files.
+  {link "https://github.com/hra687261/smt-lsp-vscode-extension"}[]
+  {link "https://marketplace.visualstudio.com/items?itemName=hra687261.smt-lsp" "VS Code Marketplace"}[]
+  {link "https://open-vsx.org/extension/hra687261/smt-lsp" "Open VSX"}[]
 
 In 2025, I defended my PhD thesis titled ["A Theory of Sequences
 Tailored for Program Verification"](/Publications/#PhD_manuscript), which I
