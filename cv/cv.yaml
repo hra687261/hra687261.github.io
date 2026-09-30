@@ -1,6 +1,6 @@
 cv:
   name: Hichem Rami AIT EL HARA
-  headline: PhD in Computer Science · R&D Engineer · Expert in Formal Methods & SMT Solving
+  headline: PhD in Computer Science · R&D Engineer · Formal Methods & SMT Solving
   location: "Palaiseau, France"
   email: hra687261@gmail.com
   website: https://hra687261.github.io/
@@ -15,18 +15,21 @@ cv:
       username: _u9Ed_UAAAAJ
   sections:
     summary:
-      - Formal methods researcher and engineer, with 5 years of experience
+      - "Formal methods researcher and engineer, with 5 years of experience
         working at a French R&D consultancy, conducting studies, implementing
         prototypes and delivering solutions to industrial and academic clients
         and partners. Author and co-author of multiple publications at venues
         including PLDI, TACAS, and LPAR, and contributor to multiple
-        open-source projects.
+        open-source projects."
 
     skills:
-      - label: "Formal Methods & Verification"
+      - label: "Formal Methods"
         details: "SMT Solving, Constraint Programming, Deductive Verification,
           Symbolic Execution, Code Transformation, Interactive Theorem Proving,
-          Abstract Interpretation, Functional Programming, Data Structure Design and Implementation"
+          Abstract Interpretation"
+      - label: "Software Engineering"
+        details: "Algorithm and Data Structure Design and Implementation,
+          Functional Programming, Fuzz Testing"
       - label: "Programming Languages"
         details: "OCaml (Expert); Python, Lean, Rust (Novice); C, Rocq, Java, Scala (From school)"
       - label: "Development Tools"
@@ -72,14 +75,14 @@ cv:
       - institution: "[Sorbonne University](https://www.sorbonne-universite.fr/en)"
         area: Computer Science
         degree: MSc
-        date: 2021-09
+        date: "Graduated Sept 2021"
         highlights:
           - "[Software Science and Technology (STL — Science et Technologie du Logiciel)](https://sciences.sorbonne-universite.fr/en/formation-sciences/masters/master-informatique/parcours-stl), R&D track focused on Software safety and reliability"
           - "Main subjects: Algorithmics, Formal Methods, Type Checking, Static Analysis, Program Verification, Operational Semantics and Process Algebras"
       - institution: "[Sorbonne University](https://www.sorbonne-universite.fr/en)"
         area: Computer Science
         degree: BSc
-        date: 2019-09
+        date: "Graduated Sept 2019"
 
     publications:
       - title: "colibri2: A CP solver for SMT problems"
