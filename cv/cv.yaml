@@ -25,8 +25,7 @@ cv:
     skills:
       - label: "Formal Methods"
         details: "SMT Solving, Constraint Programming, Deductive Verification,
-          Symbolic Execution, Code Transformation, Interactive Theorem Proving,
-          Abstract Interpretation"
+          Symbolic Execution, Code Transformation, Abstract Interpretation"
       - label: "Software Engineering"
         details: "Algorithm and Data Structure Design and Implementation,
           Functional Programming, Fuzz Testing"
@@ -54,7 +53,7 @@ cv:
           - "Designed an SMT theory of sequences tailored for the verification of Ada programs"
           - "Authored and co-authored multiple research papers (see Publications)"
           - "Implemented multiple calculi to reason over SMT problems using (n-indexed) sequences and a difference logic engine"
-          - "Developed the labeled union-find data structure and used it both to reason over SMT sequences and to implement a new interval domain for real and integer arithmetic based on it"
+          - "Developed the labeled union-find data structure and used it both to reason over SMT sequences and to implement a new interval domain for real and integer arithmetic"
       - company: "[OCamlPro](https://www.ocamlpro.com/)"
         position: R&D Intern
         date: "Mar 2021 – Sept 2021"
@@ -166,7 +165,7 @@ cv:
         journal: "JFLA 2022: 33èmes Journées Francophones des Langages Applicatifs"
         url: https://hal.inria.fr/hal-03626861
 
-    talks & service:
+    Talks & Service:
       - "See [Talks](https://hra687261.github.io/Talks) and
         [Service](https://hra687261.github.io/Service) for a full list of
         invited talks, presentations, and reviewing/committee activities."
