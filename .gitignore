@@ -2,3 +2,4 @@ _site
 .lake
 .site-server.pid
 .site-server.log
+.direnv
