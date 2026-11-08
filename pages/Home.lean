@@ -44,7 +44,8 @@ theory of programming languages, functional programming and formal methods
 (notably static analysis by abstract interpretation and theorem proving with
 the Rocq prover).
 
-To reach out, you can write to me at {mailto "hra687261(at)gmail(dot)com"}[].
+To reach out, you can write to me at {mailto "hra687261(at)gmail(dot)com"}[]
+or message me on [LinkedIn](https://www.linkedin.com/in/hra687261/).
 
 # Professional experience
 

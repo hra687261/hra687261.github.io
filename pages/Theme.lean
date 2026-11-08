@@ -5,6 +5,14 @@ def siteCSS : String := include_str "theme.css"
 def siteUrl : String := "https://hra687261.github.io/"
 def ogImageUrl : String := siteUrl ++ "assets/og/og-image.png"
 
+def footerLink (url label svg : String) : Verso.Output.Html :=
+  .tag "a" #[("href", url)] (.seq #[.text false svg, .text true label])
+
+def orcidIcon : String := include_str "icons/orcid.svg"
+def linkedinIcon : String := include_str "icons/linkedin.svg"
+def scholarIcon : String := include_str "icons/googlescholar.svg"
+def githubIcon : String := include_str "icons/github.svg"
+
 namespace Site
 
 open Output Html Template Theme in
@@ -64,10 +72,10 @@ def theme : Theme := { Theme.default with
               {{postList}}
               <div class="footer">
                 <div class="footer-links">
-                  <a href="https://orcid.org/0000-0001-7909-0413">"ORCID"</a>
-                  <a href="https://www.linkedin.com/in/hra687261/">"LinkedIn"</a>
-                  <a href="https://scholar.google.com/citations?user=_u9Ed_UAAAAJ">"Google Scholar"</a>
-                  <a href="https://github.com/hra687261/">"GitHub"</a>
+                  {{footerLink "https://orcid.org/0000-0001-7909-0413" "ORCID" orcidIcon}}
+                  {{footerLink "https://www.linkedin.com/in/hra687261/" "LinkedIn" linkedinIcon}}
+                  {{footerLink "https://scholar.google.com/citations?user=_u9Ed_UAAAAJ" "Google Scholar" scholarIcon}}
+                  {{footerLink "https://github.com/hra687261/" "GitHub" githubIcon}}
                 </div>
               </div>
             </div>
